@@ -2,14 +2,14 @@ import type { MetaFunction } from "@remix-run/node";
 
 export const meta: MetaFunction = () => {
   return [
-    { title: "New Remix App" },
-    { name: "description", content: "Welcome to Remix!" },
+    { title: "Meme Generator" },
+    { name: "description", content: "Welcome to Meme Generator!" },
   ];
 };
 
 export default function Index() {
   return (
-    <div className=" bg-blue-400">
+    <div>
       Hello World
     </div>
   );
