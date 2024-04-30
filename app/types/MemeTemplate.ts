@@ -3,7 +3,7 @@ export interface MemeTemplate {
   name: string;
   lines: number;
   overlays: number;
-  styles: any[];
+  styles: string[];
   blank: string;
   example: {
       text: string[];
